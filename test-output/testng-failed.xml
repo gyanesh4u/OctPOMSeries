@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Open Cart Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="listeners.AnnotationTransformer"/>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Product Info Page Test_chrome90(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserversion" value="90"/>
+    <classes>
+      <class name="tests.ProductInfoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="productInfoTest"/>
+          <include name="productImagesTest"/>
+          <include name="productInfoPageSetup"/>
+        </methods>
+      </class> <!-- tests.ProductInfoTest -->
+    </classes>
+  </test> <!-- Product Info Page Test_chrome90(failed) -->
+  <test thread-count="5" name="Registeration  Page Test_chrome90(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserversion" value="90"/>
+    <classes>
+      <class name="tests.RegisterationPageTest">
+        <methods>
+          <include name="registerationTest" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="regSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RegisterationPageTest -->
+    </classes>
+  </test> <!-- Registeration  Page Test_chrome90(failed) -->
+</suite> <!-- Failed suite [Open Cart Regression Suite] -->

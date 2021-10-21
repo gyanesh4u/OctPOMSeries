@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="15" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-21T11:23:23Z" name="Open Cart Regression Suite" finished-at="2021-10-21T11:27:36Z" duration-ms="252438">
+    <groups>
+    </groups>
+    <test started-at="2021-10-21T11:23:23Z" name="Login Page Test_chrome90" finished-at="2021-10-21T11:23:58Z" duration-ms="34336">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:23Z" name="setUp" finished-at="2021-10-21T11:23:44Z" duration-ms="20527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:44Z" name="loginPageTitleTest" finished-at="2021-10-21T11:23:44Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:44Z" name="loginPageUrlTest" finished-at="2021-10-21T11:23:44Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:44Z" name="forgotPwdLinkTest" finished-at="2021-10-21T11:23:46Z" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:46Z" name="registerLinkTest" finished-at="2021-10-21T11:23:48Z" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method signature="loginTest()[pri:5, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:48Z" name="loginTest" finished-at="2021-10-21T11:23:56Z" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@5f9678e1]" started-at="2021-10-21T11:23:56Z" name="tearDown" finished-at="2021-10-21T11:23:58Z" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Login Page Test_chrome90 -->
+    <test started-at="2021-10-21T11:23:59Z" name="Accounts Page Test_chrome90" finished-at="2021-10-21T11:26:19Z" duration-ms="140033">
+      <class name="tests.AccountsPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:23:59Z" name="setUp" finished-at="2021-10-21T11:24:57Z" duration-ms="58475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:24:57Z" name="accPageSetup" finished-at="2021-10-21T11:25:10Z" duration-ms="12568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accPageTitleTest()[pri:1, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:10Z" name="accPageTitleTest" finished-at="2021-10-21T11:25:10Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageTitleTest -->
+        <test-method signature="accPageHeaderTest()[pri:2, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:10Z" name="accPageHeaderTest" finished-at="2021-10-21T11:25:15Z" duration-ms="4901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageHeaderTest -->
+        <test-method signature="accSectionsListTest()[pri:3, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:15Z" name="accSectionsListTest" finished-at="2021-10-21T11:25:16Z" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSectionsListTest -->
+        <test-method signature="logoutLinkExistTest()[pri:4, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:16Z" name="logoutLinkExistTest" finished-at="2021-10-21T11:25:23Z" duration-ms="6958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLinkExistTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:5, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:23Z" name="searchTest" data-provider="getSearchData" finished-at="2021-10-21T11:25:35Z" duration-ms="11740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:5, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:35Z" name="searchTest" data-provider="getSearchData" finished-at="2021-10-21T11:25:41Z" duration-ms="5889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:5, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:41Z" name="searchTest" data-provider="getSearchData" finished-at="2021-10-21T11:25:46Z" duration-ms="5219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:48Z" name="selectProductTest" data-provider="getProductSelectData" finished-at="2021-10-21T11:25:59Z" duration-ms="10252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:25:59Z" name="selectProductTest" data-provider="getProductSelectData" finished-at="2021-10-21T11:26:06Z" duration-ms="7685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:6, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:26:06Z" name="selectProductTest" data-provider="getProductSelectData" finished-at="2021-10-21T11:26:14Z" duration-ms="8000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountsPageTest@4b45dcb8]" started-at="2021-10-21T11:26:14Z" name="tearDown" finished-at="2021-10-21T11:26:19Z" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountsPageTest -->
+    </test> <!-- Accounts Page Test_chrome90 -->
+    <test started-at="2021-10-21T11:26:19Z" name="Product Info Page Test_chrome90" finished-at="2021-10-21T11:26:59Z" duration-ms="40345">
+      <class name="tests.ProductInfoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.ProductInfoTest@23fb172e]" started-at="2021-10-21T11:26:19Z" name="setUp" finished-at="2021-10-21T11:26:34Z" duration-ms="15440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="productInfoPageSetup()[pri:0, instance:tests.ProductInfoTest@23fb172e]" started-at="2021-10-21T11:26:34Z" name="productInfoPageSetup" finished-at="2021-10-21T11:26:41Z" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoPageSetup -->
+        <test-method signature="productImagesTest()[pri:0, instance:tests.ProductInfoTest@23fb172e]" started-at="2021-10-21T11:26:41Z" name="productImagesTest" finished-at="2021-10-21T11:26:49Z" duration-ms="8158" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.ProductInfoTest.productImagesTest(ProductInfoTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productInfoTest()[pri:0, instance:tests.ProductInfoTest@23fb172e]" started-at="2021-10-21T11:26:50Z" name="productInfoTest" finished-at="2021-10-21T11:26:57Z" duration-ms="7648" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at pages.ProductInfoPage.getProductInfo(ProductInfoPage.java:51)
+at tests.ProductInfoTest.productInfoTest(ProductInfoTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductInfoTest@23fb172e]" started-at="2021-10-21T11:26:58Z" name="tearDown" finished-at="2021-10-21T11:26:59Z" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductInfoTest -->
+    </test> <!-- Product Info Page Test_chrome90 -->
+    <test started-at="2021-10-21T11:26:59Z" name="Registeration  Page Test_chrome90" finished-at="2021-10-21T11:27:36Z" duration-ms="36519">
+      <class name="tests.RegisterationPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:26:59Z" name="setUp" finished-at="2021-10-21T11:27:08Z" duration-ms="9177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="regSetup()[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:27:08Z" name="regSetup" finished-at="2021-10-21T11:27:11Z" duration-ms="2944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regSetup -->
+        <test-method signature="registerationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:27:11Z" name="registerationTest" data-provider="getRegTestData" finished-at="2021-10-21T11:27:20Z" duration-ms="8305" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhumika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9898989898]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=1]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=1]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=1]/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=1]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=1]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=1]/input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at utils.ElementUtil.getElement(ElementUtil.java:78)
+at utils.ElementUtil.doClick(ElementUtil.java:100)
+at pages.RegisterationsPage.accountRegisteration(RegisterationsPage.java:44)
+at tests.RegisterationPageTest.registerationTest(RegisterationPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerationTest -->
+        <test-method signature="registerationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:27:20Z" name="registerationTest" data-provider="getRegTestData" finished-at="2021-10-21T11:27:27Z" duration-ms="6758" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ekta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9090909878]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=2]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=2]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=2]/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=2]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=2]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=2]/input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at utils.ElementUtil.getElement(ElementUtil.java:78)
+at utils.ElementUtil.doClick(ElementUtil.java:100)
+at pages.RegisterationsPage.accountRegisteration(RegisterationsPage.java:46)
+at tests.RegisterationPageTest.registerationTest(RegisterationPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerationTest -->
+        <test-method signature="registerationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:27:27Z" name="registerationTest" data-provider="getRegTestData" finished-at="2021-10-21T11:27:35Z" duration-ms="7725" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8787656789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=1]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=1]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=1]/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //label[@class='radio-inline'])[position()=1]/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[@class='radio-inline'])[position()=1]/input' is not a valid XPath expression.
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GYANESH-PC', ip: '192.168.225.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gyanesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26481be26b9de934d78a419275823887
+*** Element info: {Using=xpath, value=//label[@class='radio-inline'])[position()=1]/input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at utils.ElementUtil.getElement(ElementUtil.java:78)
+at utils.ElementUtil.doClick(ElementUtil.java:100)
+at pages.RegisterationsPage.accountRegisteration(RegisterationsPage.java:44)
+at tests.RegisterationPageTest.registerationTest(RegisterationPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterationPageTest@4aa83f4f]" started-at="2021-10-21T11:27:35Z" name="tearDown" finished-at="2021-10-21T11:27:36Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterationPageTest -->
+    </test> <!-- Registeration  Page Test_chrome90 -->
+  </suite> <!-- Open Cart Regression Suite -->
+</testng-results>
