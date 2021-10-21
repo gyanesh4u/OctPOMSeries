@@ -1,3 +1,8 @@
+screenshots/
+test-output/
+build/
+
+############# Java ###############
 # Compiled class file
 *.class
 
@@ -21,3 +26,24 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+############ Maven ###########
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+
+########### Eclipse ##########
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+local.properties
+.loadpath
+.factorypath
