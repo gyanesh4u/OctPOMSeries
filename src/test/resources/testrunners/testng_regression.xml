@@ -17,7 +17,7 @@
 		</classes>
 	</test> <!-- Test -->
 	<test name="Accounts Page Test_chrome90">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="90" />
 		<classes>
 			<class name="tests.AccountsPageTest" />
